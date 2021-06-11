@@ -193,6 +193,10 @@
       name: 'UPDATE_ON_ACTIVE_UCJ',
       label: 'Update on Active UCJ',
       ordinal: 36
+    },
+    {
+      name: 'BRAZIL_BUSINESS_APPROVAL',
+      ordinal: 37
     }
   ]
 });
