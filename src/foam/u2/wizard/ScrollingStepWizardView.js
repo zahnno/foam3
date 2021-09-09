@@ -214,7 +214,7 @@ foam.CLASS({
         .enableClass(this.myClass('fullscreen'), this.fullScreen$)
         .start(this.Grid)
           .addClass(this.myClass('fix-grid'))
-          .start(this.GUnit, { columns: 4 }).show(this.showSteps$)
+          .start(this.GUnit, { columns: 4 }).show(this.showSteps)
             // TODO: deprecate this hide-X-status class
             .addClass(this.hideX ? this.myClass('hide-X-status') : this.myClass('status'))
             .add(
